@@ -870,40 +870,30 @@ PRICE CARD
 
 /*MOBILE RESPONSIVE*/
 
-.sv-check-list {
-
-    list-style: none;
-
-    padding: 0;
-
-}
+@media(max-width:767px){
 
 
+.sv-benefit-grid{
 
-.sv-check-list li {
-
-
-    padding: 12px 0;
-
-    border-bottom: 1px solid #eee;
-
-    font-size: 15px;
-
+grid-template-columns:1fr;
 
 }
 
 
 
-.sv-check-list li:before {
+.sv-section-heading h2{
+
+font-size:26px;
+
+}
 
 
-    content: "✓";
 
-    color: #ff3d8d;
+.sv-feature-image img{
 
-    font-weight: bold;
+border-radius:12px;
 
-    margin-right: 12px;
+}
 
 
 }
