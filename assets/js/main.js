@@ -544,7 +544,8 @@ $('.test-slider-active').slick({
 	});
 
 
-	// 09. Home-1-Slider js
+
+	// 09. Home-1-Slider javascript
 	$('.marque-slider-active').slick({
 		speed: 10000,
 		autoplay: true,
