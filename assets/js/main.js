@@ -540,53 +540,10 @@ $('.test-slider-active').slick({
 					slidesToShow: 1,
 				}
 			}
-		]
+		]	
 	});
-	// 09. Home-1-Slider js
-	$('.testimonial-active-three').slick({
-		fade:false,
-		autoplay:false,
-		slidesToShow: 5,
-		arrows: false,
-		responsive: [
-			{
-				breakpoint: 1600,
-				settings: {
-					slidesToShow: 4,
-				}
-			},
-			{
-				breakpoint: 1400,
-				settings: {
-					slidesToShow: 4,
-				}
-			},
-			{
-				breakpoint: 1200,
-				settings: {
-					slidesToShow: 3,
-				}
-			},
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 2,
-				}
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 1,
-				}
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 1,
-				}
-			}
-		]
-	});
+
+
 	// 09. Home-1-Slider js
 	$('.marque-slider-active').slick({
 		speed: 10000,
