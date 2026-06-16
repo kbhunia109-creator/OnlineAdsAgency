@@ -870,30 +870,216 @@ PRICE CARD
 
 /*MOBILE RESPONSIVE*/
 
-@media(max-width:767px){
+@media(max-width:767px) {
 
 
-.sv-benefit-grid{
+    .sv-benefit-grid {
 
-grid-template-columns:1fr;
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+    .sv-section-heading h2 {
+
+        font-size: 26px;
+
+    }
+
+
+
+    .sv-feature-image img {
+
+        border-radius: 12px;
+
+    }
+
+}
+
+/* =========================
+ SERVICE CTA
+========================= */
+
+
+.sv-cta-area {
+    overflow: hidden;
+}
+
+.sv-cta-box {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 60px;
+    border-radius: 25px;
+    background:
+        linear-gradient(135deg,
+            #101b45,
+            #172d72);
+    overflow: hidden;
+}
+
+/*DECORATIVE BACKGROUND*/
+
+.sv-cta-box::before {
+
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:
+        rgba(255, 255, 255, .08);
+
+    right: -100px;
+    top: -100px;
+}
+
+.sv-cta-box::after {
+
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background:
+        rgba(255, 61, 141, .25);
+    left: -70px;
+    bottom: -70px;
+}
+
+/*CTA CONTENT*/
+.sv-cta-content {
+
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+}
+
+.sv-cta-tag {
+
+    display: inline-block;
+    padding: 7px 18px;
+    border-radius: 30px;
+    background:
+        rgba(255, 255, 255, .15);
+    color: white;
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.sv-cta-content h2 {
+
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.sv-cta-content p {
+
+
+    color:
+        rgba(255, 255, 255, .75);
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+
+
+}
+
+/*CTA BUTTON*/
+
+.sv-cta-btn {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: 50px;
+    background: white;
+    color: #101b45;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .35s;
+    position: relative;
+    overflow: hidden;
 
 }
 
 
 
-.sv-section-heading h2{
-
-font-size:26px;
-
+.sv-cta-btn span {
+    transition: .35s;
 }
 
 
 
-.sv-feature-image img{
 
-border-radius:12px;
+.sv-cta-btn:hover {
 
+    transform:
+        translateY(-5px);
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, .25);
+    color: #ff3d8d;
 }
 
 
+
+.sv-cta-btn:hover span {
+    transform:
+        translateX(8px);
+}
+
+/*CTA IMAGE*/
+
+.sv-cta-image {
+    position: relative;
+    z-index: 2;
+}
+
+.sv-cta-image img {
+
+    width: 180px;
+    animation:
+        svPlaneMove 4s ease-in-out infinite;
+}
+
+/*FLOATING ANIMATION*/
+
+.sv-cta-image {
+
+    position: relative;
+    z-index: 2;
+}
+
+.sv-cta-image img {
+
+    width: 180px;
+    animation:
+        svPlaneMove 4s ease-in-out infinite;
+}
+
+/*CTA MOBILE RESPONSIVE*/
+@media(max-width:991px) {
+
+
+    .sv-cta-box {
+        display: block;
+        padding: 40px 30px;
+        text-align: center;
+    }
+    .sv-cta-content h2 {
+        font-size: 32px;
+    }
+    .sv-cta-image {
+        margin-top: 30px;
+    }
+    .sv-cta-image img {
+        width: 140px;
+    }
 }
