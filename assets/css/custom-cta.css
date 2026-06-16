@@ -1,0 +1,72 @@
+/* Social Area Mobile Layout */
+
+@media(max-width:575px) {
+
+
+    .tp-social-area .row{
+
+    display:flex;
+
+    flex-wrap:nowrap;
+
+    justify-content:space-evenly;
+
+    align-items:center;
+
+    gap:12px;
+
+    width:100%;
+
+    flex:0 0 auto;
+
+}
+
+
+    .tp-social-area .col-sm-6 {
+
+        flex: 0 0 auto;
+
+        width: auto;
+
+    }
+
+
+
+    .tp-social-area .tp-social-item {
+
+        width: 45px;
+
+        height: 45px;
+
+        padding: 0;
+
+        margin: 0 6px;
+
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-around;
+
+        border-radius:50%;
+
+    }
+
+
+    .tp-social-item span {
+
+        font-size: 0;
+
+    }
+
+
+
+    .tp-social-item span i {
+
+        font-size: 18px;
+
+    }
+
+
+}

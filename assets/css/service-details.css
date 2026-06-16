@@ -932,7 +932,6 @@ PRICE CARD
     border-radius: 50%;
     background:
         rgba(255, 255, 255, .08);
-
     right: -100px;
     top: -100px;
 }
@@ -952,7 +951,6 @@ PRICE CARD
 
 /*CTA CONTENT*/
 .sv-cta-content {
-
     position: relative;
     z-index: 2;
     max-width: 600px;
@@ -981,13 +979,11 @@ PRICE CARD
 
 .sv-cta-content p {
 
-
     color:
         rgba(255, 255, 255, .75);
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 30px;
-
 
 }
 
@@ -1016,9 +1012,6 @@ PRICE CARD
     transition: .35s;
 }
 
-
-
-
 .sv-cta-btn:hover {
 
     transform:
@@ -1027,8 +1020,6 @@ PRICE CARD
         0 15px 35px rgba(0, 0, 0, .25);
     color: #ff3d8d;
 }
-
-
 
 .sv-cta-btn:hover span {
     transform:
