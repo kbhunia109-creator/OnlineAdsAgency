@@ -678,7 +678,7 @@ PRICE CARD
 .sv-benefit-icon {
 
 
-    width: 45px;
+    min-width: 45px;
 
     height: 45px;
 
