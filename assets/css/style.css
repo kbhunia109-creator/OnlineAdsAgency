@@ -1267,13 +1267,13 @@ input[type=color] {
   height: 50px;
   border-radius: 100%;
   background: #53C351;
-  -webkit-animation: preloader 1.3s linear infinite;
-  animation: preloader 1.3s linear infinite;
+  -webkit-animation: preloader 0.3s linear infinite;
+  animation: preloader 0.3s linear infinite;
 }
 
 .preloader span:last-child {
-  animation-delay: -0.9s;
-  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
 }
 
 @keyframes preloader {
